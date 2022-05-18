@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mondrians-table {
+    position: relative;
+    max-width: 450px;
+    width: 100%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+.mondrians-table caption{
+    font-size: 1.5rem;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+
+td {
+    height: 50px;
+    border: 6px solid #000000;
+}
+
+.wide-row td {
+    height: 100px;
+}
+
+.bg-yellow  {
+    background-color: #ead00e;
+} 
+
+.bg-black  {
+    background-color: #000000;
+} 
+
+.bg-blue {
+    background-color: #29318b;
+}
+
+.bg-red {
+    background-color: #c00404;
+}
+
+.borderless-right, .borderless-left{
+    border: 6px solid #ffffff;
+    border-bottom: 6px solid #000000;
+}
+.borderless-left {
+    border-right: 6px solid #000000;
+}
